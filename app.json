@@ -116,6 +116,43 @@
         "large": "/drivers/multiv4/assets/images/large.png",
         "small": "/drivers/multiv4/assets/images/small.png"
       }
+    },
+    {
+      "name": {
+        "en": "Smartthings Plug"
+      },
+      "class": "socket",
+      "capabilities": [
+        "onoff"
+      ],
+      "zigbee": {
+        "manufacturerName": [
+          "CentraLite",
+          "SmartThings",
+          "Samjin"
+        ],
+        "productId": [
+          "3200-Sgb",
+          "outletv4",
+          "outlet",
+          "3200"
+        ],
+        "endpoints": {
+          "1": {
+            "clusters": [
+              0,
+              4,
+              5,
+              6
+            ]
+          }
+        }
+      },
+      "images": {
+        "large": "/drivers/control_outlet/assets/images/large.png",
+        "small": "/drivers/control_outlet/assets/images/small.png"
+      },
+      "id": "plug"
     }
   ]
 }
