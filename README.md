@@ -1,15 +1,14 @@
-Adds support for Samsung SmartThings sensors
+# Smartthings Support for Homey, Zigbee devices only
+forked from `andersthorsen/com.smartthings`
 
-Very very beta.
+## To install ⬇️
+```bash
+# firstly install homey-cli
+$npm i homey -g
 
-I bought a SmartThings kit on vacation in USA and want to use those Zigbee sensors with my Homey
+# then login to your athom account
+$homey login
 
-Currently not listed in the Homey store.
-
-To use, install node
-
-Then run npm install -g athom-cli
-
-Then run athom login
-
-and athom app install
+# and last install the app
+$cd space.charliecat.smartthings && homey app install
+```
