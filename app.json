@@ -25,55 +25,9 @@
   },
   "drivers": [
     {
-      "id": "motionv5",
+      "id": "door",
       "name": {
-        "en": "Motion Sensor (2016)"
-      },
-      "class": "sensor",
-      "capabilities": [
-        "measure_battery",
-        "alarm_battery",
-        "alarm_motion",
-        "measure_temperature"
-      ],
-      "energy": {
-        "batteries": [
-          "CR2477"
-        ]
-      },
-      "zigbee": {
-        "manufacturerName": "SmartThings",
-        "productId": [
-          "motionv5"
-        ],
-        "deviceId": 1026,
-        "profileId": 260,
-        "endpoints": {
-          "1": {
-            "clusters": [
-              0,
-              1,
-              1026,
-              1280
-            ],
-            "bindings": [
-              0,
-              1,
-              1026,
-              1280
-            ]
-          }
-        }
-      },
-      "images": {
-        "large": "/drivers/motionv5/assets/images/large.png",
-        "small": "/drivers/motionv5/assets/images/small.png"
-      }
-    },
-    {
-      "id": "multiv4",
-      "name": {
-        "en": "Multipurpose Sensor"
+        "en": "Multipurpose Door Sensor"
       },
       "class": "homealarm",
       "capabilities": [
@@ -115,6 +69,61 @@
       "images": {
         "large": "/drivers/multiv4/assets/images/large.png",
         "small": "/drivers/multiv4/assets/images/small.png"
+      }
+    },
+    {
+      "id": "motion",
+      "name": {
+        "en": "Motion Sensor"
+      },
+      "class": "sensor",
+      "capabilities": [
+        "measure_battery",
+        "alarm_battery",
+        "alarm_motion",
+        "measure_temperature"
+      ],
+      "energy": {
+        "batteries": [
+          "CR2477"
+        ]
+      },
+      "zigbee": {
+        "manufacturerName": [
+          "CentraLite",
+          "Samjin",
+          "SmartThings"
+        ],
+        "productId": [
+          "motion",
+          "motionv4",
+          "motionv5",
+          "3326",
+          "3325",
+          "3305",
+          "3325-S",
+          "3305-S"
+        ],
+        "endpoints": {
+          "1": {
+            "clusters": [
+              0,
+              1,
+              1026,
+              1280
+            ],
+            "bindings": [
+              0,
+              1,
+              1026,
+              1280
+            ]
+          }
+        }
+      },
+      "images": {
+        "large": "/drivers/motionv5/assets/images/large.png",
+        "small": "/drivers/motionv5/assets/images/small.png"
       }
     },
     {

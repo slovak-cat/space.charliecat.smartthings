@@ -1,7 +1,7 @@
 {
-    "id": "multiv4",
+    "id": "door",
     "name": {
-      "en": "Multipurpose Sensor"
+      "en": "Multipurpose Door Sensor"
     },
     "class": "homealarm",
     "capabilities": [

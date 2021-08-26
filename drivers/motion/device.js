@@ -4,7 +4,7 @@ const ZigBeeDeviceDebug = require('../../lib/ZigBeeDeviceDebug');
 
 const { CLUSTER } = require('zigbee-clusters');
 
-class MotionSensor2016Device extends ZigBeeDeviceDebug {
+class motion extends ZigBeeDeviceDebug {
 
 	onNodeInit({ zclNode }) {
 
@@ -170,4 +170,4 @@ class MotionSensor2016Device extends ZigBeeDeviceDebug {
 	}
 }
 
-module.exports = MotionSensor2016Device;
+module.exports = motion;

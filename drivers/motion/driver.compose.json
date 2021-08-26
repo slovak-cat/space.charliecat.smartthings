@@ -1,7 +1,7 @@
 {
-    "id": "motionv5",
+    "id": "motion",
     "name": {
-      "en": "Motion Sensor (2016)"
+      "en": "Motion Sensor"
     },
     "class": "sensor",
     "capabilities": [
@@ -14,12 +14,17 @@
       "batteries": [ "CR2477" ]
     },
     "zigbee": {
-      "manufacturerName": "SmartThings",
+      "manufacturerName": ["CentraLite", "Samjin", "SmartThings"],
       "productId": [
-        "motionv5"
+        "motion",
+        "motionv4",
+        "motionv5",
+        "3326",
+        "3325",
+        "3305",
+        "3325-S",
+        "3305-S"
       ],
-      "deviceId": 1026,
-      "profileId": 260,
       "endpoints": {
         "1": {
           "clusters": [0, 1, 1026, 1280],
